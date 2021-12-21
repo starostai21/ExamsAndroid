@@ -24,24 +24,28 @@
             android:layout_height="100dp"
             tools:srcCompat="@drawable/ico"/>
         <EditText
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Имя"
             android:background="@drawable/borderround"
             android:layout_margin="10dp"/>
         <EditText
+            android:id="@+id/surName"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Фамилия"
             android:layout_margin="10dp"
             android:background="@drawable/borderround"/>
         <EditText
+            android:id="@+id/eMail"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="E-mail"
             android:background="@drawable/borderround"
             android:layout_margin="10dp"/>
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="Пароль"
@@ -52,7 +56,7 @@
             android:layout_height="wrap_content"
             android:padding="20dp"
             android:layout_margin="10dp"
-
+            android:onClick="logIn"
             android:text="Войти"
             android:background="@drawable/borderround"/>
         <TextView
@@ -61,6 +65,7 @@
             android:layout_margin="10dp"
             android:padding="20dp"
             android:text="Есть аккаунт"
+            android:onClick="haveAcount"
             android:background="@drawable/borderround"/>
 
 

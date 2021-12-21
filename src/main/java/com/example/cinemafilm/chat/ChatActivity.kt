@@ -1,7 +1,8 @@
-package com.example.cinemafilm
+package com.example.cinemafilm.chat
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.cinemafilm.R
 
 class ChatActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

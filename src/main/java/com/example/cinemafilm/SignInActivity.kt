@@ -7,6 +7,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.cinemafilm.common.MyApp
+import com.example.cinemafilm.films.MainActivity
 import org.json.JSONObject
 import java.lang.Exception
 

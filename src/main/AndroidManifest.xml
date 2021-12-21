@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CinemaFilm">
         <activity
-            android:name=".ChatActivity"
+            android:name=".chat.ChatActivity"
             android:exported="false" />
         <activity
             android:name=".ProfileScreenActiviti"
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".films.MainActivity"
             android:exported="false" />
     </application>
 

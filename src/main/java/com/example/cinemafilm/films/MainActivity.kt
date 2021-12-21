@@ -1,8 +1,10 @@
-package com.example.cinemafilm
+package com.example.cinemafilm.films
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.cinemafilm.ProfileScreenActiviti
+import com.example.cinemafilm.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
